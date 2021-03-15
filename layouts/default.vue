@@ -1,25 +1,8 @@
 <template>
   <div>
-    
-    <header>
-      <Navbar />
-    </header>
-
-    <div style="margin-top:75px"></div>
     <Nuxt />
-    
   </div>
 </template>
-
-<script>
-import Navbar from '~/components/Navbar.vue'
-
-export default {
-  components: {
-    Navbar,
-  }
-}
-</script>
 
 <style>
 html {
