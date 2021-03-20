@@ -1,4 +1,4 @@
-# LocaviJS
+# Locavi
 
 ## Build Setup
 
