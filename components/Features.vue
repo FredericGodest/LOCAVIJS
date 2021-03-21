@@ -16,7 +16,7 @@
         communauté au top !
       </h2>
       <p class="text-base text-gray-700 md:text-lg">
-        Découvrez les avis des utilisateurs de Locavi qui n'hésitent pas partager les bonnes, comme les mauvaises expériences...
+        Découvrez les avis des utilisateurs de Locavi qui n'hésitent pas à partager les bonnes, comme les mauvaises expériences...
       </p>
     </div>
     <div class="grid gap-8 row-gap-8 lg:grid-cols-3">

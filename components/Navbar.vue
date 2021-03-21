@@ -5,8 +5,8 @@
     <div class="relative flex items-center justify-between">
       <a
         href="/"
-        aria-label="Company"
-        title="Company"
+        aria-label="Locavi"
+        title="Locavi"
         class="inline-flex items-center"
       >
         <svg
@@ -38,9 +38,9 @@
             </svg>
            </div>
            <a
-             href="/"
-             aria-label="Our product"
-             title="Our product"
+             href="/publish"
+             aria-label="Publier"
+             title="Publier"
              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 group-hover:text-orange-accent-400"
              >Publier
            </a>
@@ -48,18 +48,18 @@
         </li>
         <li>
           <a
-            href="/"
-            aria-label="Our product"
-            title="Our product"
+            href="/explore"
+            aria-label="Explorer"
+            title="Explorer"
             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-orange-accent-400"
             >Explorer</a
           >
         </li>
         <li>
           <a
-            href="/"
-            aria-label="Product pricing"
-            title="Product pricing"
+            href="/blog"
+            aria-label="Blog"
+            title="Blog"
             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-orange-accent-400"
             >Blog</a
           >
@@ -148,27 +148,27 @@
               <ul class="space-y-4">
                 <li>
                   <a
-                    href="/"
-                    aria-label="Our product"
-                    title="Our product"
+                    href="/publish"
+                    aria-label="Publier"
+                    title="Publier"
                     class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-orange-accent-400"
                     >Publier</a
                   >
                 </li>
                 <li>
                   <a
-                    href="/"
-                    aria-label="Our product"
-                    title="Our product"
+                    href="/explore"
+                    aria-label="Explorer"
+                    title="Explorer"
                     class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-orange-accent-400"
                     >Explorer</a
                   >
                 </li>
                 <li>
                   <a
-                    href="/"
-                    aria-label="Product pricing"
-                    title="Product pricing"
+                    href="/blog"
+                    aria-label="Blog"
+                    title="Blog"
                     class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-orange-accent-400"
                     >Blog</a
                   >
