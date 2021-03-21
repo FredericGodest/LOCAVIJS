@@ -10,7 +10,7 @@
         class="inline-flex items-center"
       >
         <svg
-          class="w-8 text-deep-purple-accent-400"
+          class="w-8 text-orange-accent-400"
           viewBox="0 0 24 24"
           stroke-linejoin="round"
           stroke-width="2"
@@ -69,7 +69,7 @@
         <li>
           <a
             href="/"
-            class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+            class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-orange-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             aria-label="Sign up"
             title="Sign up"
           >
@@ -110,7 +110,7 @@
                   class="inline-flex items-center"
                 >
                   <svg
-                    class="w-8 text-deep-purple-accent-400"
+                    class="w-8 text-orange-accent-400"
                     viewBox="0 0 24 24"
                     stroke-linejoin="round"
                     stroke-width="2"
@@ -187,7 +187,7 @@
                 <li>
                   <a
                     href="/"
-                    class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                    class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-orange-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                     aria-label="Sign up"
                     title="Sign up"
                   >

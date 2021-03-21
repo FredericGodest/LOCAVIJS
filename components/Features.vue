@@ -22,7 +22,7 @@
     <div class="grid gap-8 row-gap-8 lg:grid-cols-3">
       <div class="sm:text-center">
         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-          <svg class="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20" stroke="currentColor" viewBox="0 0 52 52">
+          <svg class="w-12 h-12 text-orange-accent-400 sm:w-20 sm:h-20" stroke="currentColor" viewBox="0 0 52 52">
             <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
           </svg>
         </div>
@@ -34,7 +34,7 @@
       </div>
       <div class="sm:text-center">
         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-          <svg class="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20" stroke="currentColor" viewBox="0 0 52 52">
+          <svg class="w-12 h-12 text-orange-400 sm:w-20 sm:h-20" stroke="currentColor" viewBox="0 0 52 52">
             <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
           </svg>
         </div>
@@ -46,7 +46,7 @@
       </div>
       <div class="sm:text-center">
         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-          <svg class="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20" stroke="currentColor" viewBox="0 0 52 52">
+          <svg class="w-12 h-12 text-orange-accent-400 sm:w-20 sm:h-20" stroke="currentColor" viewBox="0 0 52 52">
             <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
           </svg>
         </div>

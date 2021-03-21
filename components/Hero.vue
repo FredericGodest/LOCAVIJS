@@ -1,7 +1,7 @@
 <template>
  <div class="relative">
    <img src="https://images.unsplash.com/photo-1590233033196-a50b826b059b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1260&q=80" class="absolute inset-0 object-cover w-full h-full" alt="" />
-   <div class="relative bg-opacity-75 bg-deep-purple-accent-700">
+   <div class="relative bg-opacity-75 bg-orange-accent-700">
      <svg class="absolute inset-x-0 -bottom-1 text-white" viewBox="0 0 1160 163">
        <path
          fill="currentColor"
@@ -56,7 +56,7 @@
                <div class="mt-4 mb-2 sm:mb-4">
                  <button
                    type="submit"
-                   class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                   class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-orange-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                  >
                    Connexion
                  </button>
