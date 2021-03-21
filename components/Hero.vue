@@ -23,7 +23,7 @@
             placeholder="Quelle ville ?"
             required=""
             type="text"
-            class="flex-grow w-full h-12 px-4 mb-3 text-white transition duration-200 border-2 border-transparent rounded appearance-none md:mr-2 md:mb-0 bg-white focus:outline-none focus:ring-2 focus:ring-orange-600 focus:border-transparent"
+            class="flex-grow w-full h-12 px-4 mb-3 text-gray-700 transition duration-200 border-2 border-transparent rounded appearance-none md:mr-2 md:mb-0 bg-white focus:outline-none focus:ring-2 focus:ring-orange-600 focus:border-transparent"
           />
           <a
             href="/"

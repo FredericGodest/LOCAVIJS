@@ -1,6 +1,6 @@
 <template>
   <div>
-   <Features />
+   <Advice />
   </div>
 </template>
 
