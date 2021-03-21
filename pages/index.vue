@@ -2,7 +2,6 @@
   <div>
    <Hero />
    <Features />
-   <FAQ />
   </div>
 </template>
 

@@ -31,21 +31,28 @@
       </a>
       <ul class="flex items-center hidden space-x-8 lg:flex">
         <li>
-          <a
-            href="/"
-            aria-label="Our product"
-            title="Our product"
-            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >Product</a
-          >
+          <div class="flex group mt-1">
+           <div class="flex items-center justify-center rounded-full text-gray-700 transition-colors duration-200 group-hover:text-orange-accent-400 w-7 h-7 px-1 mx-1 pb-1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+           </div>
+           <a
+             href="/"
+             aria-label="Our product"
+             title="Our product"
+             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 group-hover:text-orange-accent-400"
+             >Publier
+           </a>
+        </div>
         </li>
         <li>
           <a
             href="/"
             aria-label="Our product"
             title="Our product"
-            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >Features</a
+            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-orange-accent-400"
+            >Explorer</a
           >
         </li>
         <li>
@@ -53,23 +60,14 @@
             href="/"
             aria-label="Product pricing"
             title="Product pricing"
-            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >Pricing</a
+            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-orange-accent-400"
+            >Blog</a
           >
         </li>
         <li>
           <a
             href="/"
-            aria-label="About us"
-            title="About us"
-            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >About us</a
-          >
-        </li>
-        <li>
-          <a
-            href="/"
-            class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-orange-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+            class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-orange-400 hover:bg-orange-700 focus:shadow-outline focus:outline-none"
             aria-label="Sign up"
             title="Sign up"
           >
@@ -81,7 +79,7 @@
         <button
           aria-label="Open Menu"
           title="Open Menu"
-          class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+          class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-orange-50 focus:bg-orange-50"
           @click="isMenuOpen = true"
         >
           <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -153,8 +151,8 @@
                     href="/"
                     aria-label="Our product"
                     title="Our product"
-                    class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                    >Product</a
+                    class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-orange-accent-400"
+                    >Publier</a
                   >
                 </li>
                 <li>
@@ -162,8 +160,8 @@
                     href="/"
                     aria-label="Our product"
                     title="Our product"
-                    class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                    >Features</a
+                    class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-orange-accent-400"
+                    >Explorer</a
                   >
                 </li>
                 <li>
@@ -171,23 +169,14 @@
                     href="/"
                     aria-label="Product pricing"
                     title="Product pricing"
-                    class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                    >Pricing</a
+                    class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-orange-accent-400"
+                    >Blog</a
                   >
                 </li>
                 <li>
                   <a
                     href="/"
-                    aria-label="About us"
-                    title="About us"
-                    class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                    >About us</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-orange-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                    class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-orange-accent-400 hover:bg-orange-accent-700 focus:shadow-outline focus:outline-none"
                     aria-label="Sign up"
                     title="Sign up"
                   >
