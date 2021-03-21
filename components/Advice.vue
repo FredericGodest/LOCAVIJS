@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full max-w-2xl my-5 px-6 py-4 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
+    <section class="w-full max-w-2xl px-6 py-6 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
         <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white">Publier un avis</h2>
         <p class="mt-3 text-center text-gray-600 dark:text-gray-400">Merci de partager votre avis avec la communauté 🧡</p>
         <div class="mt-6 ">
