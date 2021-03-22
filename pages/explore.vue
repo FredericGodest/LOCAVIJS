@@ -1,21 +1,41 @@
 <template>
   <div>
-    <div id="map-wrap" style="height: 75vh">
-    <no-ssr>
-      <l-map :zoom=13 :center="[49.4427984, 1.0818785]">
-        <l-tile-layer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"></l-tile-layer>
-        <l-marker :lat-lng="[49.4427984, 1.0818785]">
-          <l-popup>
-            Hello World
-          </l-popup>
-        </l-marker>
-      </l-map>
-    </no-ssr>
-    </div>
-    <h1>Hello</h1>
+    <div id="map"></div>
   </div>
 </template>
 
 <script>
+import mapboxgl from 'mapbox-gl'
+export default{
+  data () {
+    return{
+      access_token: 'pk.eyJ1IjoiZnJlZGVyaWNnb2Rlc3QiLCJhIjoiY2tta3IzajJlMTNzMTJvazVzMjd4ZmRnNiJ9.7LSYw-5hVeAvrbsfyD7Fqg',
+      map:{}
+    }
+  },
+  mounted () {
+    this.createMap()
+  },
+  methods:{
+    createMap(){
+      mapboxgl.accessToken = this.access_token
+      this.map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        zoom:11,
+        center:[1.0818927999999999,49.4427921]
+      })
+    }
+  }
 
+}
 </script>
+
+<style>
+
+#map{
+   width:100%;
+   height:75vh;
+}
+
+</style>
