@@ -36,12 +36,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content',
-    // Simple usage
-    'nuxt-leaflet',
-
-    // With options
-    ['nuxt-leaflet', { /* module options */ }],
+    '@nuxt/content'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
