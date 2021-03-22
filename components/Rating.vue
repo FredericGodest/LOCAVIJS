@@ -28,7 +28,7 @@
 
 export default {
   name: 'Rating',
-  props: ['label', 'grade', 'maxStars', 'hasCounter'],
+  props: ['type', 'label', 'grade', 'maxStars', 'hasCounter'],
   data() {
     return {
       stars: this.grade
@@ -38,6 +38,7 @@ export default {
     rate(star) {
       if (typeof star === 'number' && star <= this.maxStars && star >= 0) {
         this.stars = this.stars === star ? star - 1 : star
+        this.$emit('clicked', this.stars, this.$props.type )
       }
     }
   },
