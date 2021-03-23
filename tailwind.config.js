@@ -1,6 +1,18 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   theme: {
+   typography: {
+      default: {
+        css: {
+          'code::before': {
+            content: '""',
+          },
+          'code::after': {
+            content: '""',
+          },
+        },
+      },
+    },
     extend: {
       fontFamily: {
         sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
@@ -323,5 +335,5 @@ module.exports = {
     opacity: ['responsive', 'hover', 'focus', 'group-hover'],
     backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
-  plugins: [],
+  plugins: [require(`@tailwindcss/typography`)],
 };

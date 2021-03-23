@@ -6,7 +6,7 @@
             <h1 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-2">{{ article.title }}</h1>
             <p class="mb-6">{{ formatDate(article.updatedAt) }}</p>
             <p class="leading-relaxed mb-8">{{ article.description }}</p>
-            <nuxt-content :document="article" />
+            <nuxt-content :document="article" class="prose" />
           </div>
          </div>
        </section>

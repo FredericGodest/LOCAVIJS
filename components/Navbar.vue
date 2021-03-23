@@ -31,20 +31,21 @@
       </a>
       <ul class="flex items-center hidden space-x-8 lg:flex">
         <li>
-          <div class="flex group mt-1">
-           <div class="flex items-center justify-center rounded-full text-gray-700 transition-colors duration-200 group-hover:text-orange-accent-400 w-7 h-7 px-1 mx-1 pb-1">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-           </div>
            <a
              href="/publish"
              aria-label="Publier"
              title="Publier"
              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 group-hover:text-orange-accent-400"
-             >Publier
+             >
+             <div class="flex group mt-1 cursor-pointer">
+             <div class="flex items-center justify-center rounded-full text-gray-700 transition-colors duration-200 group-hover:text-orange-accent-400 w-7 h-7 px-1 mx-1 pb-1">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+             </div>
+             <span class="font-medium tracking-wide text-gray-700 transition-colors duration-200 group-hover:text-orange-accent-400">Publier</span>
+            </div>
            </a>
-        </div>
         </li>
         <li>
           <a
