@@ -15,9 +15,6 @@
           <p class="text-sm text-gray-800">
             LOCAVI est un projet gratuit de partage d'avis sur des logements en location de longue durée.
           </p>
-          <p class="mt-4 text-sm text-gray-800">
-            Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-          </p>
         </div>
       </div>
       <div class="grid grid-cols-2 gap-4 row-gap-1 lg:col-span-4 md:grid-cols-1">
@@ -39,7 +36,7 @@
     </div>
     <div class="flex flex-col justify-between pt-5 pb-10 border-t sm:flex-row">
       <p class="text-sm text-gray-600">
-        © Copyright 2020 Lorem Inc. All rights reserved.
+        © Copyright 2021 Locavi Tous droits réservés.
       </p>
       <div class="flex items-center mt-4 space-x-4 sm:mt-0">
         <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
