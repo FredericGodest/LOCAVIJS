@@ -8,5 +8,24 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      title: 'LOCAVI | Publier'
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'Publier un avis',
+          name: 'Publier un avis',
+          content: 'Publier un avis'
+        }
+      ]
+    }
+  }
+}
 </script>

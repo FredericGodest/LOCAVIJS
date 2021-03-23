@@ -1,12 +1,12 @@
 ---
-title: My second Blog Post
+title: L'état des lieux
 author:
   name: Benjamin
   bio: All about Benjamin
   image: https://dummyimage.com/60x60
 description: Learning how to use @nuxt/content to create a blog
 image: house
-alt: my first blog post
+alt: L'état des lieux
 ---
 
 ## This is a heading
