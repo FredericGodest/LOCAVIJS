@@ -1,11 +1,13 @@
 <template>
   <div>
-    <div id="map"></div>
+      <div id="map"></div>
+    
   </div>
 </template>
 
 <script>
 import mapboxgl from 'mapbox-gl'
+import MapboxGeocoder from 'mapbox-gl-geocoder'
 export default{
   data () {
     return{
@@ -18,24 +20,44 @@ export default{
   },
   methods:{
     createMap(){
-      mapboxgl.accessToken = this.access_token
-      this.map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        zoom:11,
-        center:[1.0818927999999999,49.4427921]
-      })
-    }
-  }
+      mapboxgl.accessToken = this.access_token;
+      navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {enableHighAccuracy:true});
 
+      function successLocation(position){
+        let lat = position.coords.latitude
+        let long = position.coords.longitude
+        setupMap([long, lat])
+      };
+
+      function errorLocation(){
+        setupMap([1.0986917,49.443603])
+      };
+
+      function setupMap(coordinate){
+        // MAP INIT
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/fredericgodest/ckjsxregm5lfh19qkpyyubikf',
+            center: coordinate,
+            zoom: 11
+        });
+
+        // AJOUT DES CONTROLS
+        var nav = new mapboxgl.NavigationControl();
+        map.addControl(nav, 'top-left');
+      };
+    }
+  },
 }
+
 </script>
 
 <style>
 
 #map{
-   width:100%;
-   height:75vh;
+  position: relative; 
+  width:100%;
+  height:75vh;
 }
 
 </style>

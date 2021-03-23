@@ -13,85 +13,25 @@
         </a>
         <div class="mt-4 lg:max-w-sm">
           <p class="text-sm text-gray-800">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+            LOCAVI est un projet gratuit de partage d'avis sur des logements en location de longue durée.
           </p>
           <p class="mt-4 text-sm text-gray-800">
             Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
           </p>
         </div>
       </div>
-      <div class="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+      <div class="grid grid-cols-2 gap-4 row-gap-1 lg:col-span-4 md:grid-cols-1">
         <div>
-          <p class="font-semibold tracking-wide text-gray-800">Category</p>
+          <p class="font-semibold tracking-wide text-gray-800">Informations</p>
           <ul class="mt-2 space-y-2">
             <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">News</a>
+              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Organisation</a>
             </li>
             <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">World</a>
+              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Contact</a>
             </li>
             <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Games</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">References</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <p class="font-semibold tracking-wide text-gray-800">Business</p>
-          <ul class="mt-2 space-y-2">
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Web</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">eCommerce</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Business</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Entertainment</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Portfolio</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <p class="font-semibold tracking-wide text-gray-800">Apples</p>
-          <ul class="mt-2 space-y-2">
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Media</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Brochure</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Nonprofit</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Educational</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Projects</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <p class="font-semibold tracking-wide text-gray-800">Cherry</p>
-          <ul class="mt-2 space-y-2">
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Infopreneur</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Personal</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Wiki</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Forum</a>
+              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Politique de confidentialité</a>
             </li>
           </ul>
         </div>
