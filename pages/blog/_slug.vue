@@ -4,7 +4,7 @@
          <div class="flex flex-wrap">
           <div class="flex flex-col items-start w-full">
             <h1 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-2">{{ article.title }}</h1>
-            <p class="mb-6">{{ formatDate(article.updatedAt) }}</p>
+            <p class="mb-8">{{ formatDate(article.updatedAt) }}</p>
             <p class="leading-relaxed mb-8">{{ article.description }}</p>
             <nuxt-content :document="article" class="prose" />
           </div>
@@ -27,9 +27,23 @@
        return {
          article,
          prev,
-         next
+         next,
+         title: 'LOCAVI | ' + article.title
        }
      },
+     head() {
+      return {
+        title: this.title,
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'index blog',
+            name: 'index blog',
+            content: 'Index des articles du blog'
+          }
+        ]
+      }
+    },
     methods: {
       formatDate(date) {
         const options = { year: 'numeric', month: 'long', day: 'numeric' }

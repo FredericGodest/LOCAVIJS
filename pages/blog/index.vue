@@ -42,7 +42,8 @@
          .fetch()
 
        return {
-         articles
+         articles,
+         title: 'LOCAVI | Blog'
        }
      },
     methods: {
@@ -50,6 +51,19 @@
         const options = { year: 'numeric', month: 'long', day: 'numeric' }
         return new Date(date).toLocaleDateString('en', options)
       }
+    },
+    head() {
+    return {
+      title: this.title,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'index blog',
+          name: 'index blog',
+          content: 'Index des articles du blog'
+        }
+      ]
     }
+  }
   }
 </script>

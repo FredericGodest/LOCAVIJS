@@ -13,7 +13,10 @@
         </a>
         <div class="mt-4 lg:max-w-sm">
           <p class="text-sm text-gray-800">
-            LOCAVI est un projet gratuit de partage d'avis sur des logements en location de longue durée.
+            LOCAVI est un projet gratuit de partage d'avis de logements en location de longue durée.
+          </p>
+          <p class="mt-4 text-sm text-gray-800">
+            Les proprietaire peuvent proposer leur logements, les locataires peuvent donner leur avis et ainsi le mettre en avant.
           </p>
         </div>
       </div>
@@ -22,13 +25,13 @@
           <p class="font-semibold tracking-wide text-gray-800">Informations</p>
           <ul class="mt-2 space-y-2">
             <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Organisation</a>
+              <a href="/organisation" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Organisation</a>
             </li>
             <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Contact</a>
+              <a href="/contact" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Contact</a>
             </li>
             <li>
-              <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Politique de confidentialité</a>
+              <a href="/politique" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Politique de confidentialité</a>
             </li>
           </ul>
         </div>
