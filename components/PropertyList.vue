@@ -1,5 +1,5 @@
 <template>
-    <div class="flex p-2 md:mb-3 w-40 shadow cursor-pointer md:w-full">
+    <div class="flex p-2 md:mb-3 shadow cursor-pointer md:w-full">
         <div class="w-1/3 bg-cover" style="background-image: url('https://images.unsplash.com/photo-1554995207-c18c203602cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80')"></div>
 
         <div class="w-2/3 p-4 md:p-4">

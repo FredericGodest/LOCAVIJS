@@ -4,7 +4,7 @@
    <div class="w-full md:w-1/2 p-4">
     <h1 class="w-full p-4 text-2xl font-bold text-gray-700 font-medium">Découvrez les meilleures locations du coin</h1>
    </div>
-    <div class="p-4 w-1/2 flex items-center mb-6 justify-end flex-col lg:flex-row lg:mb-0 lg:justify-between">
+    <div class="hidden md:inline-flex p-4 w-1/2 flex items-center mb-6 justify-end flex-col lg:flex-row lg:mb-0 lg:justify-between">
      <div ref="mapSearch" class="w-full order-last lg:order-first"></div>
     </div>
 		</div>
