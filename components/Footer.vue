@@ -16,7 +16,7 @@
             LOCAVI est un projet gratuit de partage d'avis de logements en location de longue durée.
           </p>
           <p class="mt-4 text-sm text-gray-800">
-            Les proprietaire peuvent proposer leur logements, les locataires peuvent donner leur avis et ainsi le mettre en avant.
+            Les propriétaires peuvent proposer leur logement, les locataires peuvent donner leur avis et ainsi le mettre en avant.
           </p>
         </div>
       </div>
