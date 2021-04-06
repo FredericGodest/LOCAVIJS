@@ -16,13 +16,13 @@
     "@nuxtjs/pwa": "^3.3.5",
     "axios": "^0.21.1",
     "core-js": "^3.10.0",
-    "mapbox-gl": "^2.1.1",
+    "mapbox-gl": "^2.2.0",
     "mapbox-gl-geocoder": "^2.0.1",
-    "nuxt": "^2.14.12",
+    "nuxt": "^2.15.4",
     "vue-mapbox": "^0.4.1"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^4.0.1",
+    "@nuxtjs/tailwindcss": "^4.0.3",
     "@vue/test-utils": "^1.1.2",
     "autoprefixer": "^10.2.5",
     "babel-core": "7.0.0-bridge.0",
@@ -30,10 +30,10 @@
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "jest": "^26.6.3",
-    "postcss": "^8.2.8",
+    "postcss": "^8.2.9",
     "prettier": "^2.2.1",
-    "tailwindcss": "^2.0.4",
-    "@tailwindcss/typography": "^0.2.0",
+    "tailwindcss": "^2.1.1",
+    "@tailwindcss/typography": "^0.4.0",
     "vue-jest": "^3.0.4"
   }
 }
