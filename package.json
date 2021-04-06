@@ -33,7 +33,7 @@
     "postcss": "^8.2.9",
     "prettier": "^2.2.1",
     "tailwindcss": "^2.1.1",
-    "@tailwindcss/typography": "^0.2.0",
+    "@tailwindcss/typography": "^0.4.0",
     "vue-jest": "^3.0.4"
   }
 }
