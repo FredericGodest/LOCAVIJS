@@ -57,6 +57,8 @@
 <script>
 import Mapbox from 'mapbox-gl';
 import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
+const axios = require('axios');
+
 export default{
   data () {
     return{
@@ -121,7 +123,15 @@ export default{
        ],
       // Geocoder
       address: '',
+      info: null
     }
+  },
+  mounted () {
+    var response = "";
+    axios
+      .get('http://localhost:8080/advice/all')
+      .then(response => console.log(response.data))
+    console.log("response ", response)
   },
   methods:{
    onMapLoaded(event) {
