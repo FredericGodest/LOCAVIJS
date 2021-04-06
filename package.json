@@ -15,7 +15,7 @@
     "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/pwa": "^3.3.5",
     "axios": "^0.21.1",
-    "core-js": "^3.9.1",
+    "core-js": "^3.10.0",
     "mapbox-gl": "^2.1.1",
     "mapbox-gl-geocoder": "^2.0.1",
     "nuxt": "^2.14.12",
